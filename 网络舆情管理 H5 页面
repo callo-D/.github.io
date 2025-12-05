@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网络舆情管理与应对实务</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: "Microsoft YaHei", sans-serif; background-color: #f5fafe; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .header { background-color: #2563eb; color: white; padding: 25px; border-radius: 12px; text-align: center; margin-bottom: 30px; }
+        .section { background-color: white; padding: 25px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .section-title { color: #2563eb; font-size: 1.5rem; font-weight: 600; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #e0e7ff; }
+        .sub-title { color: #1e40af; font-size: 1.2rem; font-weight: 500; margin: 15px 0 10px; }
+        ul { list-style-type: disc; padding-left: 20px; margin-bottom: 15px; }
+        ol { list-style-type: decimal; padding-left: 20px; margin-bottom: 15px; }
+        li { margin-bottom: 8px; line-height: 1.6; }
+        .highlight { color: #dc2626; font-weight: 500; }
+        .qrcode-box { text-align: center; margin: 30px 0; padding: 20px; background-color: white; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .qrcode-desc { color: #6b7280; margin-top: 10px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 头部标题 -->
+        <div class="header">
+            <h1 class="text-2xl md:text-3xl font-bold">网络舆情管理与应对实务</h1>
+            <p class="mt-3 opacity-90">课堂笔记（整理版）</p>
+        </div>
+
+        <!-- 第一部分：网络舆情风险与挑战 -->
+        <div class="section">
+            <h2 class="section-title">一、网络舆情风险与挑战</h2>
+            <h3 class="sub-title">1. 窗口服务管理风险</h3>
+            <p>窗口资源有限时，非业务人员占用窗口易引发群众不满情绪，需加强现场秩序维护。</p>
+            
+            <h3 class="sub-title">2. 执法过程规范性不足</h3>
+            <ul>
+                <li>执法人员言行不规范（如抽烟、嚼槟榔）可能被拍摄传播，损害公信力。</li>
+                <li>口头传唤等程序若未严格依法执行，易引发法律争议。</li>
+            </ul>
+            
+            <h3 class="sub-title">3. 公共场合言行失控</h3>
+            <p>不当言论或行为易被监控记录并扩散，形成舆论热点。</p>
+            
+            <h3 class="sub-title">4. 娱乐生态舆情隐患</h3>
+            <ul>
+                <li>社交平台风险：小红书等平台从“个人分享”转向“舆情策源地”（例：中金员工炫耀男友薪资事件）。</li>
+                <li>网络游戏煽动性言论：虚拟空间悼念活动可能演变为群体性情绪宣泄。</li>
+            </ul>
+            
+            <h3 class="sub-title">5. 商品评价煽动性言论</h3>
+            <p>消费者负面评价若被恶意放大，可能引发品牌信任危机。</p>
+        </div>
+
+        <!-- 第二部分：当前网络运行特点 -->
+        <div class="section">
+            <h2 class="section-title">二、当前网络运行特点</h2>
+            <ol>
+                <li><span class="highlight">信息传播“秒级扩散”</span>：负面事件通过互联网短时间内引爆全网关注。</li>
+                <li><span class="highlight">信源多元且真实性难辨</span>：传统媒体、自媒体、匿名爆料交织，需交叉验证信息真伪。</li>
+                <li><span class="highlight">网民高度参与与情绪共振</span>：热点事件评论区常出现观点对立，转发、点赞加剧舆论发酵。</li>
+            </ol>
+        </div>
+
+        <!-- 第三部分：网络舆情应对处置策略 -->
+        <div class="section">
+            <h2 class="section-title">三、网络舆情应对处置策略</h2>
+            <h3 class="sub-title">（一）发现与研判</h3>
+            <p><strong>监测工具</strong>：利用旅行接触软件、舆情监测系统尽早捕捉苗头。</p>
+            <p><strong>研判维度</strong>：</p>
+            <ul>
+                <li>热度：媒体报道量、网民讨论频次。</li>
+                <li>性质：是否涉及群体性事件、司法/环保等敏感领域。</li>
+                <li>倾向：媒体态度（中立/批评）、推进力度（政府介入程度）。</li>
+            </ul>
+            
+            <h3 class="sub-title">（二）及时回应与统一发声</h3>
+            <p><strong>“四步发声法”</strong>：</p>
+            <ol>
+                <li>第一次：第一时间发布基础事实，避免沉默。</li>
+                <li>第二次：权威部门统一口径，杜绝多头表态。</li>
+                <li>第三次：分层级细化说明（如基层→高层递进回应）。</li>
+                <li>第四次：坦诚公开真相，修复公众信任。</li>
+            </ol>
+            <p><strong>权威背书</strong>：司法、环保等问题由对应部门主导发声。</p>
+            
+            <h3 class="sub-title">（三）舆论引导技巧</h3>
+            <ul>
+                <li>主动干预：通过正面报道、澄清声明扭转负面叙事。</li>
+                <li>借力传播：邀请媒体评论员撰文定调，联合网络意见领袖发声。</li>
+                <li>柔性沟通：以共情姿态解决问题，而非强硬压制。</li>
+            </ul>
+            
+            <h3 class="sub-title">（四）组织与善后</h3>
+            <ul>
+                <li>公对公处理：重大事件避免个人名义回应，防止次生舆情。</li>
+                <li>法律手段：对造谣传谣者依法追责（参考司法解释：虚假信息浏览/转发超500次可入刑）。</li>
+                <li>内部问责：工作人员失职导致舆情，需公开处罚以示决心。</li>
+                <li>冷处理策略：对恶意滋事者减少关注，避免激化矛盾。</li>
+            </ul>
+        </div>
+
+        <!-- 第四部分：典型案例分析 -->
+        <div class="section">
+            <h2 class="section-title">四、典型案例分析</h2>
+            <h3 class="sub-title">1. 滴滴顺风车事件</h3>
+            <ul>
+                <li>分级响应：公关部→分管副总→董事长/CEO分阶段介入，体现“轻重缓急”节奏把控。</li>
+                <li>情感联结：CEO连夜赴事发地与家属沟通，展现企业担当。</li>
+            </ul>
+            
+            <h3 class="sub-title">2. 江苏丰县事件教训</h3>
+            <p>反面教材：宣传部长因擅自签发不实通报被免职，凸显“统一发声”纪律红线。</p>
+        </div>
+
+        <!-- 第五部分：核心要点总结 -->
+        <div class="section">
+            <h2 class="section-title">五、核心要点总结</h2>
+            <ul>
+                <li><strong>预防为先</strong>：规范执法流程，强化窗口管理，警惕娱乐/消费领域隐性风险。</li>
+                <li><strong>黄金4小时</strong>：抢占时效性，用“真话+行动”化解危机。</li>
+                <li><strong>分层治理</strong>：区分合理诉求与恶意炒作，灵活运用法律、舆论工具。</li>
+            </ul>
+        </div>
+
+        <!-- 二维码区域 -->
+        <div class="qrcode-box">
+            <h3 class="sub-title">扫码查看H5完整版</h3>
+            <!-- 此处二维码为模拟生成，实际部署时需替换为真实H5页面的二维码 -->
+            <img src="https://picsum.photos/300/300" alt="H5页面访问二维码" width="300" height="300" class="mx-auto">
+            <p class="qrcode-desc">手机扫码即可随时随地查看完整内容</p>
+        </div>
+    </div>
+
+    <script>
+        // 简单的平滑滚动效果
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
